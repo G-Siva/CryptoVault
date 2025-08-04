@@ -5,7 +5,7 @@ import Footer from '@/components/navigations/footer';
 import Hero from '@/components/home/hero';
 import BgAnimation from '@/components/animation/bganimation';
 import StatisticsCard from '@/components/stats/statisticscard';
-import ToggleButton from '@/components/ToogleButton';
+import ToggleButton from '@/components/reusable/ToogleButton';
 import Main from '@/components/home/main';
 
 const inter = Inter({ subsets: ['latin'] });

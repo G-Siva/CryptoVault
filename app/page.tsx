@@ -3,8 +3,8 @@ import { Coin } from '@/lib/types';
 import QuickStats from '@/components/stats/quickstats';
 import BottomStats from '@/components/stats/bottomstats';
 import Control from '@/components/home/control';
-import CoinTable from '@/components/CoinTable';
-import SkeletonLoader from '@/components/SkeletonLoader';
+import CoinTable from '@/components/reusable/CoinTable';
+import SkeletonLoader from '@/components/reusable/SkeletonLoader';
 import { TrendingUp } from 'lucide-react';
 
 export default async function Home({

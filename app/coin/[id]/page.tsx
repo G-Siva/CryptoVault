@@ -1,6 +1,6 @@
 import { getCoinDetails } from '@/lib/api/coingecko';
-import CoinCard from '@/components/CoinCard';
-import SkeletonLoader from '@/components/SkeletonLoader';
+import CoinCard from '@/components/reusable/CoinCard';
+import SkeletonLoader from '@/components/reusable/SkeletonLoader';
 import { Suspense } from 'react';
 import { CoinDetails } from '@/lib/types';
 import { ArrowLeft } from 'lucide-react';
