@@ -41,3 +41,59 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+/* Custom Card Styles */
+.floating-card {
+  @apply bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg;
+}
+
+.glass-card {
+  @apply bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl;
+}
+
+.neon-border {
+  @apply relative;
+}
+
+.neon-border::before {
+  content: '';
+  @apply absolute -inset-1 bg-gradient-to-r from-cyan-400/50 to-blue-600/50 rounded-2xl blur opacity-30;
+  z-index: -1;
+}
+
+/* Button Styles */
+.btn-modern {
+  @apply px-6 py-3 bg-gradient-to-r from-cyan-400 to-blue-600 text-white font-semibold rounded-lg hover:from-cyan-500 hover:to-blue-700 transition-all duration-300 shadow-lg hover:shadow-xl;
+}
+
+/* Text Styles */
+.gradient-text {
+  @apply bg-gradient-to-r from-cyan-400 to-blue-600 bg-clip-text text-transparent;
+}
+
+/* Price Styles */
+.price-positive {
+  @apply text-green-400;
+}
+
+.price-negative {
+  @apply text-red-400;
+}
+
+/* Table Styles */
+.table-modern {
+  @apply bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl overflow-hidden;
+}
+
+.table-row-modern {
+  @apply hover:bg-white/5 transition-colors duration-200;
+}
+
+.coin-rank {
+  @apply text-sm font-medium text-foreground/60;
+}
+
+/* Animation Classes */
+.stat-card {
+  @apply bg-black/20 backdrop-blur-md border border-white/10 rounded-2xl p-6 hover:bg-black/30 transition-all duration-300;
+}

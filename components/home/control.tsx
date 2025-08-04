@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { useSearchParams } from 'next/navigation';
-import SearchBar from '../SearchBar';
+import SearchBar from '@/components/reusable/SearchBar';
 import Filters from '@/components/reusable/Filters';
 
 export default function Control() {
