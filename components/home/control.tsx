@@ -3,7 +3,7 @@
 import React from 'react';
 import { useSearchParams } from 'next/navigation';
 import SearchBar from '../SearchBar';
-import Filters from '@/components/Filters';
+import Filters from '@/components/reusable/Filters';
 
 export default function Control() {
     const searchParams = useSearchParams();

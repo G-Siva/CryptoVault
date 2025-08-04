@@ -1,5 +1,5 @@
 import { getCoinsMarkets } from '@/lib/api/coingecko';
-import CoinTable from '@/components/CoinTable';
+import CoinTable from '@/components/reusable/CoinTable';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { Suspense } from 'react';
