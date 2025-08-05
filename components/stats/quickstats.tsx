@@ -18,8 +18,8 @@ export default function QuickStats() {
 
         <div className="stat-card group">
           <div className="flex items-center gap-2 sm:gap-3 mb-3">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-500/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-              <Award className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400" />
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-blue-400/20 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+              <Award className="w-4 h-4 sm:w-5 sm:h-5 text-blue-300" />
             </div>
             <div>
               <p className="text-xs sm:text-sm text-foreground/60">Premium Assets</p>

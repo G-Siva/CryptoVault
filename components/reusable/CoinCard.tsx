@@ -22,7 +22,6 @@ export default function CoinCard({ coin }: CoinCardProps) {
   const priceChange = coin.market_data?.price_change_percentage_24h;
   const isPositive = priceChange && priceChange >= 0;
 
-  // Add safety checks for required data
   if (!coin || !coin.market_data) {
     return (
       <div className="floating-card w-full max-w-md text-center py-8">
@@ -35,7 +34,6 @@ export default function CoinCard({ coin }: CoinCardProps) {
 
   return (
     <div className="floating-card w-full max-w-md">
-      {/* Header with coin info */}
       <div className="flex items-center justify-between mb-6">
         <div className="flex items-center gap-4">
           <div className="relative">

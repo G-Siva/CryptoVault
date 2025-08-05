@@ -90,7 +90,7 @@
 }
 
 .coin-rank {
-  @apply text-sm font-medium text-foreground/60;
+  @apply text-sm font-medium;
 }
 
 /* Animation Classes */
